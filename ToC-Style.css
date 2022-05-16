@@ -2,6 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+  .phb#p1{ text-align:center; }
+  .phb#p1:after{ display:none; }
+  .phb:after {
+    content: "Haosmund is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 55px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 28px;
+    text-align: center;
+    font-size: 11px;
+    padding-left: 65px;
+    padding-right: 85px;
+    line-height: 1.1;
+    }
 
 /* Main Background */
   .phb { background-image: url("https://www.gmbinder.com/images/TqYKFv2.jpg"); text-align:justify; text-indent:0px;}
