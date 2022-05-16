@@ -21,7 +21,6 @@
     line-height: 1.1;
     }
 
-/* Main Background */
   .phb { background-image: url("https://www.gmbinder.com/images/TqYKFv2.jpg"); text-align:justify; text-indent:0px;}
   .phb::after {background-image:none;}
   
